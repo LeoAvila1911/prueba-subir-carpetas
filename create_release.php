@@ -1,11 +1,11 @@
 <?php
 
 $owner = 'LeoAvila1911'; // Reemplaza con el nombre del propietario del repositorio
-$repo = 'prueba-subir-carpetas'; // Reemplaza con el nombre de tu repositorio
-$tag = '3.0.0'; // Reemplaza con la etiqueta (tag) del release
-$releaseName = 'Release 3'; // Reemplaza con el nombre del release
-$releaseBody = 'Prueba Release 3'; // Reemplaza con la descripción del release
-$githubToken = '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'; // Reemplaza con tu token de acceso personal de GitHub
+$repo = ' prueba-subir-carpetas'; // Reemplaza con el nombre de tu repositorio
+$tag = 'v1.0.0'; // Reemplaza con la etiqueta (tag) del release
+$releaseName = 'Release 1.0.0'; // Reemplaza con el nombre del release
+$releaseBody = 'Prueba Release'; // Reemplaza con la descripción del release
+$githubToken = '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'; // Reemplaza con tu token de acceso personal de GitHub
 
 $url = "https://api.github.com/repos/{$owner}/{$repo}/releases";
 $data = array(
