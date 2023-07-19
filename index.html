@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar push a GitHub</title>
+</head>
+
+<body>
+    <h1>Realizar push a GitHub</h1>
+    <button onclick="pushToGitHub()">Realizar push</button>
+
+    <script>
+        function pushToGitHub() {
+            fetch('push.php')
+                .then(response => response.text())
+                .then(result => {
+                    alert(result);
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        }
+    </script>
+</body>
+
+</html>
