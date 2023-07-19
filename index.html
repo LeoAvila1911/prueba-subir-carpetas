@@ -16,20 +16,14 @@
             fetch('push.php')
                 .then(response => response.text())
                 .then(result => {
-                    // Actualizar el contenido del elemento con el resultado del fetch
-                    document.getElementById('El código se ha actualizado correctamente').innerText = result;
+                    alert(result);
                 })
                 .catch(error => {
-                    // En caso de error, mostrar el mensaje de error en el mismo elemento
-                    document.getElementById('El código no se ha actualizado correctamente').innerText = 'Error: ' + error;
+                    console.error(error);
                 });
         }
     </script>
 </body>
 
 </html>
-
-<!-- Agrega este elemento donde desees mostrar el mensaje -->
-<div id="mensaje"></div>
-
 
