@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Release</title>
+</head>
+
+<body>
+    <h1>Crear Release</h1>
+    <form action="create_release.php" method="POST">
+        <label for="tag">Etiqueta (tag):</label>
+        <input type="text" id="tag" name="tag" required><br>
+
+        <label for="releaseName">Nombre del Release:</label>
+        <input type="text" id="releaseName" name="releaseName" required><br>
+
+        <label for="releaseBody">Descripción del Release:</label>
+        <textarea id="releaseBody" name="releaseBody" required></textarea><br>
+
+        <input type="submit" value="Crear Release">
+    </form>
+</body>
+
+</html>
