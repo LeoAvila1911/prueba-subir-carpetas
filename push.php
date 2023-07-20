@@ -1,7 +1,7 @@
 <?php
 
 $repoOwner = 'LeoAvila1911'; // Reemplaza con el nombre del propietario del repositorio
-$repoName = 'Integration-Zenodo-GitHub'; // Reemplaza con el nombre de tu repositorio
+$repoName = 'prueba-subir-carpetas'; // Reemplaza con el nombre de tu repositorio
 $commitMessage = 'prueba 0.1.1'; // Reemplaza con el mensaje del commit
 $githubToken = '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'; // Reemplaza con tu token de acceso personal de GitHub
 
