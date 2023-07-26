@@ -1,5 +1,0 @@
-{
-    "require": {
-        "php-http/guzzle6-adapter": "^2.0"
-    }
-}
